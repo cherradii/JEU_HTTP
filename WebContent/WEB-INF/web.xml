@@ -3,8 +3,9 @@
   <display-name>JEU_HTTP</display-name>
   <servlet>
  	 <servlet-name>cs</servlet-name>
- 	 <servlet-class>Web.ControleurServlet</servlet-class>
+ 	 <servlet-class>web.ControleurServlet</servlet-class>
   </servlet>
+  
   <servlet-mapping>
   	<servlet-name>cs</servlet-name>
   	<url-pattern>/controleur</url-pattern>

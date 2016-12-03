@@ -6,17 +6,17 @@
 </head>
 <body>
  <h1>Jeu Hazard</h1>
- <form action="controleur" method="post">
- 	Devinez:<input type="text" name="nombre">
- 	<input type=submit name="Jouer">
- </form>
- 
- <table>
- 	<c:forEach items="${ model.historique }" var="rep">
- 		<tr>
- 		 <td>${ rep }</td>
- 		</tr>
- 	</c:forEach>
- </table>
+	<form action="controleur" method="post">
+		Devinez:<input type="text" name="nombre"> <input type=submit
+			name="Jouer">
+	</form>
+
+	<table>
+		<c:forEach items="${ model.historique }" var="rep">
+			<tr>
+				<td>${ rep }</td>
+			</tr>
+		</c:forEach>
+	</table>
 </body>
 </html>

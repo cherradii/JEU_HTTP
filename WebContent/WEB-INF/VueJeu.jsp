@@ -7,8 +7,9 @@
 <body>
  <h1>Jeu Hazard</h1>
 	<form action="controleur" method="post">
-		Devinez:<input type="text" name="nombre"> <input type=submit
-			name="Jouer">
+		Devinez:<input type="text" name="nombre" value="${ model.nombre }"> 
+		<input type=submit value="Jouer" name="action">
+		<input type="submit" value="Relancer" name="action">
 	</form>
 
 	<table>

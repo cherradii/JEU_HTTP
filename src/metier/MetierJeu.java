@@ -11,9 +11,9 @@ public class MetierJeu {
 	public String jouer(int nb) {
 		if (fin == false) {
 			if (nb > nombreSecret) {
-				return "Votre nombre est plus grand";
+				return "Votre nombre " + nb + " est plus grand";
 			} else if (nb < nombreSecret) {
-				return "Votre nombre est plus petit";
+				return "Votre nombre " + nb + " est plus petit";
 			} else {
 				fin = true;
 				return "Bravo vous avez gagné";
@@ -21,6 +21,15 @@ public class MetierJeu {
 		} else  {
 			return "Le jeu est terminé, le nombre recherché est " + nombreSecret;
 		}
+		
+	}
+
+	public boolean isFin() {
+		return fin;
+	}
+
+	public void setFin(boolean fin) {
+		this.fin = fin;
 	}
 	
 }

@@ -1,4 +1,4 @@
-# JEU_HTTP
+# Jeu Hazard
 Exemple d'implémentation d'une application web JEE sous forme d'un jeu http. Le but est de créer une application web JEE qui sépare la logique métier de la logique présentation. On respecte dans la couche web le pattern MVC.
 
 Pour rappeler, le principe du jeu est le suivant :

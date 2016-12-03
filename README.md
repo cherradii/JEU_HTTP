@@ -1,5 +1,5 @@
 # JEU_HTTP
-Exemple d'implémentation d'une application web JEE sous forme d'un jeu http. Le but est de créer une application web JEE qui sépare la logique métier de la logique présentation. On respecte dans couche web le pattern MVC.
+Exemple d'implémentation d'une application web JEE sous forme d'un jeu http. Le but est de créer une application web JEE qui sépare la logique métier de la logique présentation. On respecte dans la couche web le pattern MVC.
 
 Le projet aborde les éléments suivants :
 
